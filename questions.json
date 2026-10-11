@@ -1,0 +1,206 @@
+{
+  "AI Search Algorithms": [
+    {
+      "question": "Which search algorithm explores nodes level by level?",
+      "options": [
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Greedy Best-First Search",
+        "Hill Climbing"
+      ],
+      "answer": "Breadth-First Search",
+      "explanation": "BFS expands the shallowest unexpanded nodes first, using a queue."
+    },
+    {
+      "question": "Which algorithm uses g(n) + h(n) as its evaluation function?",
+      "options": [
+        "Uniform Cost Search",
+        "A* Search",
+        "DFS",
+        "Minimax"
+      ],
+      "answer": "A* Search",
+      "explanation": "A* combines the path cost g(n) with heuristic estimate h(n)."
+    },
+    {
+      "question": "Which data structure is typically used by iterative DFS?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Priority queue only",
+        "Hash table only"
+      ],
+      "answer": "Stack",
+      "explanation": "Depth-first search uses a stack, explicitly or through recursion."
+    },
+    {
+      "question": "Which algorithm is commonly used for two-player, zero-sum game decisions?",
+      "options": [
+        "PCA",
+        "Minimax",
+        "Linear Regression",
+        "BFS only"
+      ],
+      "answer": "Minimax",
+      "explanation": "Minimax selects a move assuming both players act optimally."
+    },
+    {
+      "question": "What does a heuristic estimate in informed search?",
+      "options": [
+        "Exact answer always",
+        "Estimated cost to a goal",
+        "Number of agents",
+        "Memory size"
+      ],
+      "answer": "Estimated cost to a goal",
+      "explanation": "A heuristic estimates remaining cost or distance to a goal state."
+    },
+    {
+      "question": "Uniform Cost Search expands the node with the lowest:",
+      "options": [
+        "Depth",
+        "Heuristic only",
+        "Accumulated path cost",
+        "Alphabetical label"
+      ],
+      "answer": "Accumulated path cost",
+      "explanation": "UCS prioritizes the lowest g(n), the cost accumulated from the start."
+    }
+  ],
+  "Machine Learning Basics": [
+    {
+      "question": "Which task predicts a continuous numeric value?",
+      "options": [
+        "Classification",
+        "Regression",
+        "Clustering only",
+        "Tokenization"
+      ],
+      "answer": "Regression",
+      "explanation": "Regression models numeric quantities such as price or temperature."
+    },
+    {
+      "question": "What is overfitting?",
+      "options": [
+        "Model performs well on training data but poorly on unseen data",
+        "Model has no parameters",
+        "Dataset contains no labels",
+        "Training never starts"
+      ],
+      "answer": "Model performs well on training data but poorly on unseen data",
+      "explanation": "Overfitting means the model memorizes training patterns that do not generalize."
+    },
+    {
+      "question": "Which metric is TP / (TP + FP)?",
+      "options": [
+        "Recall",
+        "Precision",
+        "Accuracy",
+        "Specificity"
+      ],
+      "answer": "Precision",
+      "explanation": "Precision measures the fraction of predicted positives that are truly positive."
+    },
+    {
+      "question": "What is the main purpose of a test set?",
+      "options": [
+        "Tune every parameter repeatedly",
+        "Estimate performance on unseen data",
+        "Replace training data entirely",
+        "Increase labels"
+      ],
+      "answer": "Estimate performance on unseen data",
+      "explanation": "A held-out test set gives an estimate of generalization performance."
+    },
+    {
+      "question": "Which method reduces the number of input dimensions?",
+      "options": [
+        "PCA",
+        "KNN only",
+        "Gradient descent",
+        "Confusion matrix"
+      ],
+      "answer": "PCA",
+      "explanation": "Principal Component Analysis projects data onto fewer principal components."
+    },
+    {
+      "question": "In gradient descent, parameters are updated to generally:",
+      "options": [
+        "Increase loss",
+        "Reduce the objective/loss",
+        "Delete the dataset",
+        "Guarantee 100% accuracy"
+      ],
+      "answer": "Reduce the objective/loss",
+      "explanation": "The gradient indicates a direction of steepest increase, so the update moves opposite it."
+    }
+  ],
+  "Neural Networks": [
+    {
+      "question": "What is the role of an activation function?",
+      "options": [
+        "Add non-linearity",
+        "Store the dataset",
+        "Split train/test data",
+        "Calculate file size"
+      ],
+      "answer": "Add non-linearity",
+      "explanation": "Non-linear activations allow networks to model complex relationships."
+    },
+    {
+      "question": "What does backpropagation calculate?",
+      "options": [
+        "Gradients of the loss with respect to parameters",
+        "The number of rows only",
+        "A random label",
+        "The test-set size"
+      ],
+      "answer": "Gradients of the loss with respect to parameters",
+      "explanation": "Backpropagation applies the chain rule to calculate parameter gradients."
+    },
+    {
+      "question": "Which neural network type is especially associated with image feature extraction?",
+      "options": [
+        "CNN",
+        "Linear regression",
+        "Decision table",
+        "K-means only"
+      ],
+      "answer": "CNN",
+      "explanation": "Convolutional Neural Networks use filters to learn spatial patterns in images."
+    },
+    {
+      "question": "What is an epoch?",
+      "options": [
+        "One complete pass through the training dataset",
+        "One model parameter",
+        "A type of label",
+        "A validation metric"
+      ],
+      "answer": "One complete pass through the training dataset",
+      "explanation": "One epoch means the model has processed the full training set once."
+    },
+    {
+      "question": "Which issue can a very high learning rate cause?",
+      "options": [
+        "Overshooting or unstable training",
+        "Guaranteed perfect results",
+        "No parameter updates",
+        "Automatic data cleaning"
+      ],
+      "answer": "Overshooting or unstable training",
+      "explanation": "Large updates may jump across a minimum and prevent convergence."
+    },
+    {
+      "question": "In a basic neuron, weights are used to:",
+      "options": [
+        "Scale input contributions",
+        "Name the output file",
+        "Sort labels alphabetically",
+        "Replace the loss function"
+      ],
+      "answer": "Scale input contributions",
+      "explanation": "Weights determine how strongly each input contributes to the neuron's sum."
+    }
+  ]
+}
